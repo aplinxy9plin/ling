@@ -234,14 +234,26 @@
             </button>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                           <ul class="navbar-nav">
+                            <li class="nav-item " style="background-color: #ff3a6d">
+                                <a class="nav-link" href="schools.php?sort=offline">КУРСЫ ОФФЛАЙН</a>
+                            </li><hr>
+                            <li class="nav-item " style="background-color: #ff3a6d">
+                                <a class="nav-link" href="schools.php?sort=online">КУРСЫ ОНЛАЙН</a>
+                            </li><hr>
+                            <li class="nav-item " style="background-color: #ff3a6d">
+                                <a class="nav-link" href="teachers.php">УРОКИ ПО Skype</a>
+                            </li><hr>
                               <li class="nav-item ">
-                                  <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">КУРСЫ ОФФЛАЙН</a>
+                                  <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false">8-913-109-26-84</a>
                               </li>
                               <li class="nav-item ">
-                                  <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">КУРСЫ ОНЛАЙН</a>
+                                  <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Заказать обратный звонок</a>
                               </li>
                               <li class="nav-item ">
-                                  <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">УРОКИ ПО Skype</a>
+                                  <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Р</a>
+                              </li>
+                              <li class="nav-item ">
+                                  <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">RU</a>
                               </li>
                           </ul>
                         </div>
@@ -544,18 +556,55 @@
     <footer class="main-block dark-bg">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+              <div class="col-md-12">
+                <div class="col-md-3" style="display: inline-block">
+                  <div class="row">
+                    <ul style="list-style: none">
+                      <li><h6 style="color: #f8f8f8">О компании</h6></li>
+                      <li><a href="#" style="color: #f8f8f8; text-decoration: underline;">О нас</a></li>
+                      <li><a href="#" style="color: #f8f8f8; text-decoration: underline;">Контакты</a></li>
+                      <li><a href="#" style="color: #f8f8f8; text-decoration: underline;">Наши приемущества</a></li>
+                      <li><a href="#" style="color: #f8f8f8; text-decoration: underline;">Условия использования сайта</a></li>
+                      <li><a href="#" style="color: #f8f8f8; text-decoration: underline;">Обработка пресональных данных</a></li>
+                      <li><a href="#" style="color: #f8f8f8; text-decoration: underline;">Вакансии</a></li>
+                      <li><a href="#" style="color: #f8f8f8; text-decoration: underline;">Партнерская программа</a></li>
+                      <li><a href="#" style="color: #f8f8f8; text-decoration: underline;">Карта сайта</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3" style="display: inline-block">
+                  <div class="row">
+                    <ul style="list-style: none; color: white">
+                      <li><h6 style="color: #f8f8f8">Наши услуги</h6></li>
+                      <li><a href="#" style="color: #f8f8f8; text-decoration: underline;">Языковые курсы по всему миру</a></li>
+                      <li><a href="#" style="color: #f8f8f8; text-decoration: underline;">Курсы иностранных языков онлайн</a></li>
+                      <li><a href="#" style="color: #f8f8f8; text-decoration: underline;">Уроки по Skype</a></li>
+                      <li><a href="#" style="color: #f8f8f8; text-decoration: underline;">Консультации по оформлению виз</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3" style="display: inline-block">
+                  <div class="row">
+                    <ul style="list-style: none">
+                      <li><a href="#" class="btn" style="background-color: #ff3a6d; color: #f8f8f8">Внести оплату по карте</a></li><br>
+                      <li><a href="add_school.php" style="color: #f8f8f8; text-decoration: underline;">Зарегистрировать школу</a></li>
+                      <li><a href="#" style="color: #f8f8f8; text-decoration: underline;">Войти</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-2" style="display: inline-block">
+                  <div class="row">
+
                     <div class="copyright">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <p>Copyright &copy; 2018 Aplin. All rights reserved | Created with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://vk.com/aplinxy9plin" target="_blank">Aplin Nikita</a></p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <ul>
+                        <ul style="margin: 0px 0 0">
                             <li><a href="#"><span class="ti-facebook"></span></a></li>
                             <li><a href="#"><span class="ti-twitter-alt"></span></a></li>
                             <li><a href="#"><span class="ti-instagram"></span></a></li>
                         </ul>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
         </div>
     </footer>

@@ -197,8 +197,15 @@ p {
   @media (max-width: 576px) {
     .btn-group {
       display: block; } }
+select:focus {
+  outline: none;
+}
 
 .btn-group1 {
+  -webkit-box-shadow: 0 3px 5px #333;
+	-moz-box-shadow: 0 3px 5px #333;
+	box-shadow: none;
+  background-color: #f8f8f8;
   padding: 24px;
   width: 40%;
   border-top-left-radius: 3px;
@@ -963,5 +970,4 @@ footer {
     @import 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css';
     @import 'https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css';
   }
-
 /*# sourceMappingURL=style.css.map */
